@@ -10,7 +10,7 @@ function presidentsArr(presidents){
 }
 presidentsArr(arr);
 
-//________________________________________________________________________________//
+//________________________________________________________________________________ //
 
 function makeStringOfNumbers( ){
 	var stringOfNumbers = ('');
@@ -23,3 +23,14 @@ function makeStringOfNumbers( ){
 var result = makeStringOfNumbers();
 console.log('Value is:' + result);
 
+//____________________________________________________________________________________//
+
+function makeevenNumberArray(){
+	var evenNumberArray = ('');
+	for (var i = 0; i < 51; i++){
+		evenNumberArray = evenNumberArray + i;
+	}
+	return evenNumberArray;
+}
+var result = makeevenNumberArray();
+console.log ('Value is: ' + result);
