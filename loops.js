@@ -34,3 +34,28 @@ function makeevenNumberArray(){
 }
 var result = makeevenNumberArray();
 console.log ('Value is: ' + result);
+
+//_____________________________________________________________________________________//
+
+function makeoopsArray(){
+  var oppsArray = [ 'turn' , , 'down' , , 'for' , , 'what' ];
+	for (var i = 1; i < 6 ; i+=2){
+		oppsArray.splice(i,1,"nope");
+	}
+
+ console.log (oppsArray);
+  return oppsArray;
+}
+var oppsArray = makeoopsArray();
+
+//______________________________________________________________________________________ //
+
+
+
+
+
+
+
+
+
+
